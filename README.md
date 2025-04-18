@@ -16,15 +16,19 @@ The system is designed with clarity and modularity in mind, making use of abstra
 
 ## File Structure
 ```
-├── Aquarium.py              # Main simulation engine
-├── Animal.py                # Abstract base class for all animals
-├── Fish.py / Crab.py        # Intermediary classes
-├── Molly.py, Scalar.py, Ocypode.py, Shrimp.py  # Specific animal types
-├── Exceptions.py            # Custom exceptions for input and simulation
-├── Animals_lists.py         # Static shape representations for animals
-├── main.py                  # CLI (provided by course staff)
-├── test_molly.py            # Unit tests for Molly
-├── test_aquarium.py         # Comprehensive simulation tests
+├── src/                    # All implementation classes
+│   ├── Aquarium.py         # Main simulation engine
+│   ├── Animal.py           # Abstract base class for all animals
+│   ├── Fish.py / Crab.py   # Intermediary classes
+│   ├── Molly.py, Scalar.py, Ocypode.py, Shrimp.py  # Specific animal types
+│   ├── Exceptions.py       # Custom exceptions for input and simulation
+│   ├── Animals_lists.py    # Static shape representations for animals
+├── tests/                  # Unit tests
+│   ├── test_molly.py
+│   ├── test_aquarium.py
+├── main.py                 # CLI (provided by course staff)
+├── README.md               # Project overview and documentation
+
 ```
 
 ## How to Run
